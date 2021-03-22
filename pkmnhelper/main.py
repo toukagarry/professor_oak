@@ -8,7 +8,7 @@ from shared import configuration
 from . import ai
 
 configuration.DEFAULTS.update({
-    "token": "ODA1NzUyNTczMDM3Mzc5NTk3.YBfdjw.eFrmo_vE1sjQHokS086ibvONHdw",
+    "token": "",
     "db": "mysql+pool://pkmn:passwd@localhost/pkmndb?max_connections=20&stale_timeout=300",
     "owners": [709659973642092594]
 })
